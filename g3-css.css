@@ -1,21 +1,122 @@
 
-
-/* using google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.work-sans-font {
+.work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-/* Global Styles */
 
 *{
-    max-width: 1240px;
-    margin: auto;
-    width: 95%;
-    box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
+    margin: 0;
 }
+.container{
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+}
+
+header{
+    background-color: #fff4e7;
+}
+
+li{list-style: none;}
+a{text-decoration: none;
+color: black;
+font-weight: 500;}
+
+header h3{text-decoration: none;
+    color:black;}
+
+  header  h3{
+        padding: 10px;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    /* margin-right: 50px; */
+    }
+
+  li{margin-right: 10px;
+    }  
+
+
+    .header-section{
+        max-width: 600px;
+        margin: auto;
+        color: black;
+        text-align: center;
+        width: 80%;
+
+        margin-top: 150px;
+
+    }
+
+    .header-img{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    button{
+        margin-top: 20px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: bold;
+        background-color: #FF900E;
+        border-radius: 5px;
+    }
+
+    a{
+        margin-left: 40px;
+    }
+
+
+
+    /* section part */
+
+
+    .blog-1{
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* border: 2px solid red; */
+
+        margin-top: 150px;
+        align-items: center;
+    }
+
+    .img-part{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:10px;
+    
+    }
+
+    .text-part{margin-left: 50px;}
+
+    .dark-text{color: #727272;}
+    .text-part p{
+        margin: 10px 0px;
+    }
+
+    .text-part h2{
+        color: #FF900E;
+    }
